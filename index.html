@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index_style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="company_logo">Twitter</div>
+        <div class="left">
+            <a href="#" class="links">Tweets</a>
+            <a href="login.html" class="links">Login</a>
+            <a href="index.html" class="links">Register</a>
+        </div>
+    </div>
+
+    <form id="registration-form">
+        <div class="form-group">
+        <h1>Register</h1>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-group">
+          <label for="country">Country:</label>
+          <select id="country" name="country">
+            <option value="Kazakhstan">Kazakhstan</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">UK</option>
+            <option value="Australia">Australia</option>
+            <option value="South Korea">South Korea</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="birthday">Birthday:</label>
+          <input type="date" id="birthday" name="birthday" required>
+        </div>
+        <div class="form-group">
+            <button type="submit">Register</button>
+        </div>
+        
+      </form>
+    <script src="index.js"></script>
+</body>
+</html>
